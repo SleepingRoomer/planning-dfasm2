@@ -119,6 +119,27 @@ const TYPE_DEPUIS_SHEET = {
   cours: "cm", examen: "examen", edn: "edn", quiz: "quiz", rangA: "rangA", conf: "conf",
 };
 
+/* Le sheet écrit la matière en capitales sans accent, parfois suffixée
+   ("HEMATOLOGIE (non enregistré)") : à normaliser vers les constantes
+   H/O/P/MI/PSY/G/C2 utilisées par GROUPES, sans quoi aucun événement
+   synchronisé ne rejoindrait jamais son onglet de matière. Vérifié contre
+   la sortie réelle du premier passage du workflow. Une matière qui ne
+   matche aucune entrée connue est laissée telle quelle plutôt que perdue :
+   l'événement reste visible dans "Tout à venir", simplement sans onglet dédié. */
+const CANON_MATIERE = {
+  HEMATOLOGIE: H, ONCOLOGIE: O, PEDIATRIE: P,
+  "MEDECINE INTERNE": MI, PSYCHIATRIE: PSY, GERIATRIE: G,
+  "CYCLE 2": C2,
+};
+function normaliserMatiere(brut) {
+  if (!brut) return undefined;
+  const cle = brut
+    .normalize("NFD").replace(/[̀-ͯ]/g, "")
+    .replace(/\s*\([^)]*\)\s*$/, "")
+    .trim().toUpperCase();
+  return CANON_MATIERE[cle] || brut;
+}
+
 /* Un événement de data/events.json (schéma `scripts/ingest.mjs`, cf.
    CHAMPS_PUBLIES) vers le schéma attendu par le reste du composant. */
 function depuisSheet(ev) {
@@ -127,7 +148,7 @@ function depuisSheet(ev) {
     s: ev.debut || undefined,
     e: ev.fin || undefined,
     t: ev.libelle || ev.matiere || "Séance",
-    subj: ev.matiere || undefined,
+    subj: normaliserMatiere(ev.matiere),
     type: TYPE_DEPUIS_SHEET[ev.type] || "cm",
     place: ev.site || undefined,
     room: ev.salle || undefined,
