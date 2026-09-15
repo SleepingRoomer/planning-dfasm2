@@ -33,6 +33,11 @@ jobs:
         run: npm run build
 
       - uses: actions/configure-pages@v5
+        with:
+          # Active Pages (source : GitHub Actions) si ce n'est pas déjà fait,
+          # au lieu d'échouer sur un dépôt tout neuf où personne n'est encore
+          # allé cocher la case dans Settings → Pages.
+          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:
