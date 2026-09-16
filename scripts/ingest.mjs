@@ -181,14 +181,6 @@ const main = async () => {
   }
 
   const final = [...parId.values()];
-  await mkdir("public/data", { recursive: true });
-  await writeFile("public/data/events.json", JSON.stringify({
-    promo: "DFASM2",
-    annee: "2026-2027",
-    genere: new Date().toISOString(),
-    nb: final.length,
-    events: final,
-  }, null, 2));
 
   const suspects = final.filter((e) => e.aVerifier).length;
   console.log(`${final.length} événements écrits, ${suspects} à vérifier.`);
@@ -197,6 +189,27 @@ const main = async () => {
     // le planning par un fichier vide.
     throw new Error("Trop peu d'événements, le commit est annulé.");
   }
+
+  // Ne change "genere" que si le contenu a réellement changé : sinon le
+  // fichier diffère à chaque passage horaire rien qu'à cause de l'horodatage,
+  // ce qui déclencherait un commit (et un redéploiement) toutes les heures
+  // au lieu de seulement quand la faculté modifie vraiment le planning.
+  let genere = new Date().toISOString();
+  try {
+    const precedent = JSON.parse(await readFile("public/data/events.json", "utf8"));
+    if (JSON.stringify(precedent.events) === JSON.stringify(final)) {
+      genere = precedent.genere;
+    }
+  } catch { /* premier passage, pas de fichier précédent */ }
+
+  await mkdir("public/data", { recursive: true });
+  await writeFile("public/data/events.json", JSON.stringify({
+    promo: "DFASM2",
+    annee: "2026-2027",
+    genere,
+    nb: final.length,
+    events: final,
+  }, null, 2) + "\n");
 };
 
 // N'exécute le pipeline réseau que lorsque le script est lancé directement

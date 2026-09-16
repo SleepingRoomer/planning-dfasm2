@@ -1,0 +1,4694 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Planning DFASM2//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:DFASM2 — Tout le planning
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2026-09-07-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260907T183000
+DTEND;TZID=Europe/Paris:20260907T210000
+SUMMARY:Urgences
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Urgences — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Urgences — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-08-pediatrie-13-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260908T134500
+DTEND;TZID=Europe/Paris:20260908T153000
+SUMMARY:Pédiatrie — Infectiologie
+LOCATION:Trousseau\, Sorrel
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Infectiologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Infectiologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-08-pediatrie-15-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260908T153000
+DTEND;TZID=Europe/Paris:20260908T173000
+SUMMARY:Pédiatrie — Pneumologie
+LOCATION:Trousseau\, Sorrel
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Pneumologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Pneumologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-09-hematologie-non-enregistr-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260909T140000
+DTEND;TZID=Europe/Paris:20260909T160000
+SUMMARY:Hématologie — Anémies carentielles / Items : 208\, 209\, 215
+LOCATION:PSL 91\, salle 616
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — Anémies carentielles / Items : 208\, 209\, 215 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — Anémies carentielles / Items : 208\, 209\, 215 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-09-oncologie-16-15@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260909T161500
+DTEND;TZID=Europe/Paris:20260909T181500
+SUMMARY:Oncologie — Item 287. Epidémiologie\, facteurs de risque\, prévention et dépistage des cancers\nItem 288. Cancer : cancérogénèse\, oncogénétique\nItem 289. Diagnostic des cancers : signes d’appel et investigations para-cliniques \; caractérisation du stade \; pronostic\nItem 291. Traitement des cancers : chirurgie\, 
+LOCATION:PSL 91\, salle 511
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — Item 287. Epidémiologie\, facteurs de risque\, prévention et dépistage des cancers\nItem 288. Cancer : cancérogénèse\, oncogénétique\nItem 289. Diagnostic des cancers : signes d’appel et investigations para-cliniques \; caractérisation du stade \; pronostic\nItem 291. Traitement des cancers : chirurgie\,  — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — Item 287. Epidémiologie\, facteurs de risque\, prévention et dépistage des cancers\nItem 288. Cancer : cancérogénèse\, oncogénétique\nItem 289. Diagnostic des cancers : signes d’appel et investigations para-cliniques \; caractérisation du stade \; pronostic\nItem 291. Traitement des cancers : chirurgie\,  — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-10-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260910T183000
+DTEND;TZID=Europe/Paris:20260910T210000
+SUMMARY:Rhumatologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Rhumatologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Rhumatologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-11-psychiatrie-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260911T140000
+DTEND;TZID=Europe/Paris:20260911T160000
+SUMMARY:Psychiatrie — N° 61. Connaître les bases des classifications des troubles mentaux de l’adulte\n  N° 64. Trouble bipolaire de l’adulte\n  N°74. Prescription et surveillance des psychotropes (Antidépresseurs et thymorégulateurs)
+LOCATION:PSL91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 61. Connaître les bases des classifications des troubles mentaux de l’adulte\n  N° 64. Trouble bipolaire de l’adulte\n  N°74. Prescription et surveillance des psychotropes (Antidépresseurs et thymorégulateurs) — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 61. Connaître les bases des classifications des troubles mentaux de l’adulte\n  N° 64. Trouble bipolaire de l’adulte\n  N°74. Prescription et surveillance des psychotropes (Antidépresseurs et thymorégulateurs) — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-11-psychiatrie-16-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260911T160000
+DTEND;TZID=Europe/Paris:20260911T180000
+SUMMARY:Psychiatrie — N°66. Diagnostiquer : un trouble dépressif \n  N°74. Prescription et surveillance des psychotropes (Antidépresseurs et thymorégulateurs)
+LOCATION:PSL91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N°66. Diagnostiquer : un trouble dépressif \n  N°74. Prescription et surveillance des psychotropes (Antidépresseurs et thymorégulateurs) — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N°66. Diagnostiquer : un trouble dépressif \n  N°74. Prescription et surveillance des psychotropes (Antidépresseurs et thymorégulateurs) — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-12-choix-de-stage-n-1-09-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260912T093000
+DTEND;TZID=Europe/Paris:20260912T120000
+SUMMARY:Choix de stage n°1
+LOCATION:Zoom
+DESCRIPTION:Un samedi.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Choix de stage n°1 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Choix de stage n°1 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-14-geriatrie-non-enregistr-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260914T140000
+DTEND;TZID=Europe/Paris:20260914T140000
+SUMMARY:Gériatrie — Iatrogénie \; Plainte mnésique\, TNC
+LOCATION:PSL 105\, AMPHI E
+DESCRIPTION:Horaire non interprétable dans le sheet
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gériatrie — Iatrogénie \; Plainte mnésique\, TNC — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Gériatrie — Iatrogénie \; Plainte mnésique\, TNC — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-14-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260914T183000
+DTEND;TZID=Europe/Paris:20260914T210000
+SUMMARY:Urologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Urologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Urologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-15-pediatrie-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260915T140000
+DTEND;TZID=Europe/Paris:20260915T153000
+SUMMARY:Pédiatrie — Néonatalogie
+LOCATION:Trousseau\, Sorrel
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Néonatalogie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Néonatalogie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-15-pediatrie-15-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260915T153000
+DTEND;TZID=Europe/Paris:20260915T170000
+SUMMARY:Pédiatrie — endocrinologie
+LOCATION:Trousseau\, Sorrel
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — endocrinologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — endocrinologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-16-hematologie-non-enregistr-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260916T140000
+DTEND;TZID=Europe/Paris:20260916T160000
+SUMMARY:Hématologie — Anémies hémolytiques / Items : 208\, 209
+LOCATION:PSL 91\, salle 616
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — Anémies hémolytiques / Items : 208\, 209 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — Anémies hémolytiques / Items : 208\, 209 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-16-oncologie-16-15@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260916T161500
+DTEND;TZID=Europe/Paris:20260916T181500
+SUMMARY:Oncologie — Item 297. Tumeur du col utérin\, tumeur du corps utérin\n Item 303. Tumeurs de l’ovaire
+LOCATION:PSL 91\, salle 511
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — Item 297. Tumeur du col utérin\, tumeur du corps utérin\n Item 303. Tumeurs de l’ovaire — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — Item 297. Tumeur du col utérin\, tumeur du corps utérin\n Item 303. Tumeurs de l’ovaire — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-17-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260917T183000
+DTEND;TZID=Europe/Paris:20260917T210000
+SUMMARY:Néphrologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Néphrologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Néphrologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-18-psychiatrie-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260918T140000
+DTEND;TZID=Europe/Paris:20260918T160000
+SUMMARY:Psychiatrie — N° 15. Soins psychiatriques sans consentement \n  N° 65. Trouble délirant persistant \n  N° 351. Agitation et délire aiguë .\n  N° 58. Sexualité normale et ses troubles\n  N° 66h. Trouble de la personnalité.
+LOCATION:PSL91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 15. Soins psychiatriques sans consentement \n  N° 65. Trouble délirant persistant \n  N° 351. Agitation et délire aiguë .\n  N° 58. Sexualité normale et ses troubles\n  N° 66h. Trouble de la personnalité. — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 15. Soins psychiatriques sans consentement \n  N° 65. Trouble délirant persistant \n  N° 351. Agitation et délire aiguë .\n  N° 58. Sexualité normale et ses troubles\n  N° 66h. Trouble de la personnalité. — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-18-psychiatrie-16-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260918T160000
+DTEND;TZID=Europe/Paris:20260918T180000
+SUMMARY:Psychiatrie — N° 63. Trouble schizophrénique de l’adolescent et de l’adulte\n  N°74. Prescription et surveillance des psychotropes (Antipsychotiques)\n  N°74. Prescription et surveillance des psychotropes\n  N° 73. Différents types de techniques psychothérapeutiques
+LOCATION:PSL91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 63. Trouble schizophrénique de l’adolescent et de l’adulte\n  N°74. Prescription et surveillance des psychotropes (Antipsychotiques)\n  N°74. Prescription et surveillance des psychotropes\n  N° 73. Différents types de techniques psychothérapeutiques — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 63. Trouble schizophrénique de l’adolescent et de l’adulte\n  N°74. Prescription et surveillance des psychotropes (Antipsychotiques)\n  N°74. Prescription et surveillance des psychotropes\n  N° 73. Différents types de techniques psychothérapeutiques — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-21-debut-du-stage-1-jj@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:Début du stage 1
+DESCRIPTION:Jusqu'au 29 novembre\, paye jusqu'au 6 décembre.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Début du stage 1 — demain
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-21-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260921T183000
+DTEND;TZID=Europe/Paris:20260921T210000
+SUMMARY:Neurologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Neurologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Neurologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-22-pediatrie-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260922T140000
+DTEND;TZID=Europe/Paris:20260922T153000
+SUMMARY:Pédiatrie — Vaccinologie
+LOCATION:Trousseau\, Sorrel
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Vaccinologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Vaccinologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-22-pediatrie-15-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260922T153000
+DTEND;TZID=Europe/Paris:20260922T170000
+SUMMARY:Pédiatrie — allergologie
+LOCATION:Trousseau\, Sorrel
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — allergologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — allergologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-23-hematologie-non-enregistr-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260923T140000
+DTEND;TZID=Europe/Paris:20260923T160000
+SUMMARY:Hématologie — LLC\, splénomégalie\, syndrome mononucléosique / Items : 208\, 213\, 272\, 315
+LOCATION:PSL 91\, salle 616
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — LLC\, splénomégalie\, syndrome mononucléosique / Items : 208\, 213\, 272\, 315 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — LLC\, splénomégalie\, syndrome mononucléosique / Items : 208\, 213\, 272\, 315 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-23-oncologie-16-15@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260923T161500
+DTEND;TZID=Europe/Paris:20260923T181500
+SUMMARY:Oncologie — Item 299. Tumeurs cutanées\, épithéliales et mélaniques\n Item 304. Tumeurs des os primitives et secondaires
+LOCATION:PSL 91\, salle 511
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — Item 299. Tumeurs cutanées\, épithéliales et mélaniques\n Item 304. Tumeurs des os primitives et secondaires — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — Item 299. Tumeurs cutanées\, épithéliales et mélaniques\n Item 304. Tumeurs des os primitives et secondaires — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-24-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260924T183000
+DTEND;TZID=Europe/Paris:20260924T210000
+SUMMARY:Radiologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Radiologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Radiologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-25-psychiatrie-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260925T140000
+DTEND;TZID=Europe/Paris:20260925T160000
+SUMMARY:Psychiatrie — N° 69. Troubles psychiques de la grossesse et du post-partum
+LOCATION:PSL91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 69. Troubles psychiques de la grossesse et du post-partum — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 69. Troubles psychiques de la grossesse et du post-partum — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-25-psychiatrie-16-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260925T160000
+DTEND;TZID=Europe/Paris:20260925T180000
+SUMMARY:Psychiatrie — N° 66e. Diagnostiquer : un trouble obsessionnel compulsif
+LOCATION:PSL91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 66e. Diagnostiquer : un trouble obsessionnel compulsif — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 66e. Diagnostiquer : un trouble obsessionnel compulsif — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-28-geriatrie-non-enregistr-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260928T140000
+DTEND;TZID=Europe/Paris:20260928T140000
+SUMMARY:Gériatrie — Syndrome d'immobilisation\, décubitus prolongé et escarres \; Dépression psychotropes\;
+LOCATION:PSL 105\, AMPHI E
+DESCRIPTION:Horaire non interprétable dans le sheet
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gériatrie — Syndrome d'immobilisation\, décubitus prolongé et escarres \; Dépression psychotropes\; — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Gériatrie — Syndrome d'immobilisation\, décubitus prolongé et escarres \; Dépression psychotropes\; — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-28-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260928T183000
+DTEND;TZID=Europe/Paris:20260928T210000
+SUMMARY:Gynéco-obstétrique
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gynéco-obstétrique — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Gynéco-obstétrique — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-29-medecine-interne-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260929T140000
+DTEND;TZID=Europe/Paris:20260929T144500
+SUMMARY:Médecine interne — Amaigrissement
+LOCATION:PSL 91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Amaigrissement — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Amaigrissement — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-29-medecine-interne-14-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260929T144500
+DTEND;TZID=Europe/Paris:20260929T153000
+SUMMARY:Médecine interne — Réaction inflammatoire
+LOCATION:PSL 91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Réaction inflammatoire — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Réaction inflammatoire — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-29-medecine-interne-15-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260929T153000
+DTEND;TZID=Europe/Paris:20260929T160000
+SUMMARY:Médecine interne — Education Thérapeutique
+LOCATION:PSL 91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Education Thérapeutique — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Education Thérapeutique — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-29-medecine-interne-16-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260929T160000
+DTEND;TZID=Europe/Paris:20260929T163000
+SUMMARY:Médecine interne — Déficit immunitaire
+LOCATION:PSL 91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Déficit immunitaire — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Déficit immunitaire — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-30-hematologie-non-enregistr-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260930T140000
+DTEND;TZID=Europe/Paris:20260930T160000
+SUMMARY:Hématologie — Myélodysplasie\, leucémies aiguës\, agranulocytose / Items : 208\, 209\, 293\, 312\, 313\, 325
+LOCATION:PSL 91\, salle 616
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — Myélodysplasie\, leucémies aiguës\, agranulocytose / Items : 208\, 209\, 293\, 312\, 313\, 325 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — Myélodysplasie\, leucémies aiguës\, agranulocytose / Items : 208\, 209\, 293\, 312\, 313\, 325 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-30-oncologie-16-15@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20260930T161500
+DTEND;TZID=Europe/Paris:20260930T181500
+SUMMARY:Oncologie — Item 307. Tumeurs de la prostate  Item 308. Tumeurs du rein  Item 310. Tumeurs du testicule  Item 311. Tumeurs vésicale
+LOCATION:PSL 91\, salle 511
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — Item 307. Tumeurs de la prostate  Item 308. Tumeurs du rein  Item 310. Tumeurs du testicule  Item 311. Tumeurs vésicale — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — Item 307. Tumeurs de la prostate  Item 308. Tumeurs du rein  Item 310. Tumeurs du testicule  Item 311. Tumeurs vésicale — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-01-inscriptions-a-l-ue-lca-renforcee-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261001T170000
+DTEND;TZID=Europe/Paris:20261001T170000
+SUMMARY:Inscriptions à l'UE LCA renforcée
+LOCATION:Lien Survey Monkey publié dans le planning
+DESCRIPTION:300 places. Présence obligatoire aux 4 séances et note au Wooclap. Un Zoom est prévu pour qui suit sans valider l'UE.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Inscriptions à l'UE LCA renforcée — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Inscriptions à l'UE LCA renforcée — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-01-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261001T183000
+DTEND;TZID=Europe/Paris:20261001T210000
+SUMMARY:Dermatologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Dermatologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Dermatologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-02-psychiatrie-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261002T140000
+DTEND;TZID=Europe/Paris:20261002T160000
+SUMMARY:Psychiatrie — N° 72. Troubles à symptomattologie somatique et apparentés à tous les âges\n  N° 73. Différents types de techniques psychothérapeutiques
+LOCATION:PSL91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 72. Troubles à symptomattologie somatique et apparentés à tous les âges\n  N° 73. Différents types de techniques psychothérapeutiques — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 72. Troubles à symptomattologie somatique et apparentés à tous les âges\n  N° 73. Différents types de techniques psychothérapeutiques — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-02-psychiatrie-16-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261002T160000
+DTEND;TZID=Europe/Paris:20261002T180000
+SUMMARY:Psychiatrie — N° 60. Connaître les facteurs de risque\, prévention\, dépistage des troubles psychiques de l’enfant \n  N° 62. Décrire l’organisation de l’offre de soins en psychiatrie\, de l’enfant
+LOCATION:PSL91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 60. Connaître les facteurs de risque\, prévention\, dépistage des troubles psychiques de l’enfant \n  N° 62. Décrire l’organisation de l’offre de soins en psychiatrie\, de l’enfant — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 60. Connaître les facteurs de risque\, prévention\, dépistage des troubles psychiques de l’enfant \n  N° 62. Décrire l’organisation de l’offre de soins en psychiatrie\, de l’enfant — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-05-forum-des-relations-internationales-16-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261005T163000
+DTEND;TZID=Europe/Paris:20261005T183000
+SUMMARY:Forum des relations internationales
+LOCATION:Hall du 91
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Forum des relations internationales — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Forum des relations internationales — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-05-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261005T183000
+DTEND;TZID=Europe/Paris:20261005T210000
+SUMMARY:MIT
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:MIT — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:MIT — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-06-pediatrie-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261006T140000
+DTEND;TZID=Europe/Paris:20261006T170000
+SUMMARY:Pédiatrie — Gastro-entérologie
+LOCATION:Trousseau\, Sorrel
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Gastro-entérologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Gastro-entérologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-07-hematologie-non-enregistr-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261007T140000
+DTEND;TZID=Europe/Paris:20261007T160000
+SUMMARY:Hématologie — Lymphomes et ganglions / Items : 208\, 216\, 272\, 316
+LOCATION:PSL 91\, salle 616
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — Lymphomes et ganglions / Items : 208\, 216\, 272\, 316 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — Lymphomes et ganglions / Items : 208\, 216\, 272\, 316 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-07-oncologie-16-15@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261007T161500
+DTEND;TZID=Europe/Paris:20261007T181500
+SUMMARY:Oncologie — Item 306. Tumeurs du poumon\, primitives et secondaires
+LOCATION:PSL 91\, salle 511
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — Item 306. Tumeurs du poumon\, primitives et secondaires — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — Item 306. Tumeurs du poumon\, primitives et secondaires — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-08-information-mobilites-internationales-16-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261008T163000
+DTEND;TZID=Europe/Paris:20261008T163000
+SUMMARY:Information mobilités internationales
+LOCATION:Amphi D
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Information mobilités internationales — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Information mobilités internationales — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-08-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261008T183000
+DTEND;TZID=Europe/Paris:20261008T210000
+SUMMARY:HGE
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:HGE — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:HGE — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-09-psychiatrie-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261009T140000
+DTEND;TZID=Europe/Paris:20261009T160000
+SUMMARY:Psychiatrie — N° 78. Addiction au cannabis\, à la cocaine\n  N° 78. Addiction aux médicaments psychotropes (benzodiazépines et apparentés) \n  N° 78. Addiction à la cocaïne\, aux amphétamines\, aux opiacés\, aux drogues de synthèse\n  N° 77. Addictions comportementales\n  N° 78. Dopage (voir item 253)
+LOCATION:PSL91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 78. Addiction au cannabis\, à la cocaine\n  N° 78. Addiction aux médicaments psychotropes (benzodiazépines et apparentés) \n  N° 78. Addiction à la cocaïne\, aux amphétamines\, aux opiacés\, aux drogues de synthèse\n  N° 77. Addictions comportementales\n  N° 78. Dopage (voir item 253) — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 78. Addiction au cannabis\, à la cocaine\n  N° 78. Addiction aux médicaments psychotropes (benzodiazépines et apparentés) \n  N° 78. Addiction à la cocaïne\, aux amphétamines\, aux opiacés\, aux drogues de synthèse\n  N° 77. Addictions comportementales\n  N° 78. Dopage (voir item 253) — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-09-psychiatrie-16-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261009T160000
+DTEND;TZID=Europe/Paris:20261009T180000
+SUMMARY:Psychiatrie — N° 60. Connaître les facteurs de risque\, prévention\, dépistage des troubles psychiques de la personne âgée\n  N° 62. Décrire l’organisation de l’offre de soins en psychiatrie\, de la personne âgée\n  N° 70. Troubles psychiques du sujet âgé\n  N°72. Prescription et surveillance des psychotropes (hypnotiq
+LOCATION:PSL91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 60. Connaître les facteurs de risque\, prévention\, dépistage des troubles psychiques de la personne âgée\n  N° 62. Décrire l’organisation de l’offre de soins en psychiatrie\, de la personne âgée\n  N° 70. Troubles psychiques du sujet âgé\n  N°72. Prescription et surveillance des psychotropes (hypnotiq — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 60. Connaître les facteurs de risque\, prévention\, dépistage des troubles psychiques de la personne âgée\n  N° 62. Décrire l’organisation de l’offre de soins en psychiatrie\, de la personne âgée\n  N° 70. Troubles psychiques du sujet âgé\n  N°72. Prescription et surveillance des psychotropes (hypnotiq — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-12-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261012T183000
+DTEND;TZID=Europe/Paris:20261012T210000
+SUMMARY:CMF
+LOCATION:ZOOM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:CMF — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:CMF — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-13-pediatrie-13-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261013T130000
+DTEND;TZID=Europe/Paris:20261013T140000
+SUMMARY:Pédiatrie — Film préparation ACR stage 1
+LOCATION:Trousseau\, Sorrel
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Film préparation ACR stage 1 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Film préparation ACR stage 1 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-13-pediatrie-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261013T140000
+DTEND;TZID=Europe/Paris:20261013T153000
+SUMMARY:Pédiatrie — Urgences
+LOCATION:Trousseau\, Sorrel
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Urgences — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Urgences — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-13-pediatrie-15-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261013T153000
+DTEND;TZID=Europe/Paris:20261013T170000
+SUMMARY:Pédiatrie — Néphrologie
+LOCATION:Trousseau\, Sorrel
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Néphrologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Néphrologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-15-date-limite-d-inscription-a-la-faculte-jj@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Date limite d'inscription à la faculté
+DESCRIPTION:Deadline ultime. Les stages et les cours peuvent commencer sans inscription.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Date limite d'inscription à la faculté — demain
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-15-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261015T183000
+DTEND;TZID=Europe/Paris:20261015T203000
+SUMMARY:Endo-diabeto-nut1
+LOCATION:Hopital PSL\, Amphi STOMATO
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Endo-diabeto-nut1 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Endo-diabeto-nut1 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-19-forum-des-relations-internationales-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261019T140000
+DTEND;TZID=Europe/Paris:20261019T160000
+SUMMARY:Forum des relations internationales
+LOCATION:Hall du 91
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Forum des relations internationales — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Forum des relations internationales — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-19-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261019T183000
+DTEND;TZID=Europe/Paris:20261019T210000
+SUMMARY:Cardiologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Cardiologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Cardiologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-20-pediatrie-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261020T140000
+DTEND;TZID=Europe/Paris:20261020T153000
+SUMMARY:Pédiatrie — Douleur
+LOCATION:Trousseau\, Sorrel
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Douleur — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Douleur — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-20-pediatrie-15-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261020T153000
+DTEND;TZID=Europe/Paris:20261020T170000
+SUMMARY:Pédiatrie — Hématologie
+LOCATION:Trousseau\, Sorrel
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Hématologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Hématologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-21-hematologie-non-enregistr-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261021T140000
+DTEND;TZID=Europe/Paris:20261021T160000
+SUMMARY:Hématologie — Myélome\, gammapathie monoclonale / Items : 208\, 317
+LOCATION:PSL 91\, salle 616
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — Myélome\, gammapathie monoclonale / Items : 208\, 317 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — Myélome\, gammapathie monoclonale / Items : 208\, 317 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-21-oncologie-16-15@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261021T161500
+DTEND;TZID=Europe/Paris:20261021T181500
+SUMMARY:Oncologie — Item 300. Tumeur de l’estomac\nItem 302. Tumeurs de l’œsophage\nItem 305. Tumeurs du pancréas
+LOCATION:PSL 91\, salle 511
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — Item 300. Tumeur de l’estomac\nItem 302. Tumeurs de l’œsophage\nItem 305. Tumeurs du pancréas — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — Item 300. Tumeur de l’estomac\nItem 302. Tumeurs de l’œsophage\nItem 305. Tumeurs du pancréas — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-22-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261022T183000
+DTEND;TZID=Europe/Paris:20261022T210000
+SUMMARY:Rea&Anesth
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Rea&Anesth — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Rea&Anesth — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23-psychiatrie-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261023T140000
+DTEND;TZID=Europe/Paris:20261023T160000
+SUMMARY:Psychiatrie — N°353- Risque et conduites suicidaires chez l'enfant\, l'adolescent et l'adulte:identification et prise en charge.
+LOCATION:PSL91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N°353- Risque et conduites suicidaires chez l'enfant\, l'adolescent et l'adulte:identification et prise en charge. — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N°353- Risque et conduites suicidaires chez l'enfant\, l'adolescent et l'adulte:identification et prise en charge. — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23-psychiatrie-16-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261023T160000
+DTEND;TZID=Europe/Paris:20261023T180000
+SUMMARY:Psychiatrie — N° 66f. Diagnostiquer : un état de stress post – traumatique\,\n  N°74. Prescription et surveillance des psychotropes\n  N° 73. Différents types de techniques psychothérapeutiques
+LOCATION:PSL91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 66f. Diagnostiquer : un état de stress post – traumatique\,\n  N°74. Prescription et surveillance des psychotropes\n  N° 73. Différents types de techniques psychothérapeutiques — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 66f. Diagnostiquer : un état de stress post – traumatique\,\n  N°74. Prescription et surveillance des psychotropes\n  N° 73. Différents types de techniques psychothérapeutiques — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26-geriatrie-non-enregistr-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261026T140000
+DTEND;TZID=Europe/Paris:20261026T170000
+SUMMARY:Gériatrie — Chutes et troubles de la marche\; Confusion
+LOCATION:PSL 105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gériatrie — Chutes et troubles de la marche\; Confusion — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Gériatrie — Chutes et troubles de la marche\; Confusion — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261026T183000
+DTEND;TZID=Europe/Paris:20261026T210000
+SUMMARY:Bactério
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Bactério — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Bactério — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27-medecine-interne-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261027T140000
+DTEND;TZID=Europe/Paris:20261027T150000
+SUMMARY:Médecine interne — Acrosyndromes
+LOCATION:PSL 91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Acrosyndromes — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Acrosyndromes — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27-medecine-interne-15-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261027T150000
+DTEND;TZID=Europe/Paris:20261027T160000
+SUMMARY:Médecine interne — Vascularites
+LOCATION:PSL 91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Vascularites — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Vascularites — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27-medecine-interne-16-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261027T160000
+DTEND;TZID=Europe/Paris:20261027T163000
+SUMMARY:Médecine interne — Fièvre immunodéprimé
+LOCATION:PSL 91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Fièvre immunodéprimé — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Fièvre immunodéprimé — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27-medecine-interne-16-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261027T163000
+DTEND;TZID=Europe/Paris:20261027T171500
+SUMMARY:Médecine interne — Amaigrissement
+LOCATION:PSL 91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Amaigrissement — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Amaigrissement — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-28-hematologie-non-enregistr-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261028T140000
+DTEND;TZID=Europe/Paris:20261028T160000
+SUMMARY:Hématologie — Thrombopénies/thrombopathies/hémostase primaire / Items : 208\, 210\, 211\, 212
+LOCATION:PSL 91\, salle 616
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — Thrombopénies/thrombopathies/hémostase primaire / Items : 208\, 210\, 211\, 212 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — Thrombopénies/thrombopathies/hémostase primaire / Items : 208\, 210\, 211\, 212 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-28-oncologie-16-15@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261028T161500
+DTEND;TZID=Europe/Paris:20261028T181500
+SUMMARY:Oncologie — Item 295. Tumeurs de la cavité buccale\, naso-sinusiennes et du cavum\, et des voies aérodigestives supérieures\nItem 296. Tumeurs intra-crâniennes
+LOCATION:PSL 91\, salle 511
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — Item 295. Tumeurs de la cavité buccale\, naso-sinusiennes et du cavum\, et des voies aérodigestives supérieures\nItem 296. Tumeurs intra-crâniennes — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — Item 295. Tumeurs de la cavité buccale\, naso-sinusiennes et du cavum\, et des voies aérodigestives supérieures\nItem 296. Tumeurs intra-crâniennes — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-29-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261029T183000
+DTEND;TZID=Europe/Paris:20261029T210000
+SUMMARY:Orthopédie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Orthopédie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Orthopédie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-02-geriatrie-non-enregistr-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261102T140000
+DTEND;TZID=Europe/Paris:20261102T170000
+SUMMARY:Gériatrie — Cœur et insuffisance cardiaque et FA/ Anémie\, TRF
+LOCATION:PSL 105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gériatrie — Cœur et insuffisance cardiaque et FA/ Anémie\, TRF — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Gériatrie — Cœur et insuffisance cardiaque et FA/ Anémie\, TRF — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-02-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261102T183000
+DTEND;TZID=Europe/Paris:20261102T210000
+SUMMARY:HGE
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:HGE — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:HGE — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-03-medecine-interne-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261103T140000
+DTEND;TZID=Europe/Paris:20261103T150000
+SUMMARY:Médecine interne — Fièvre prolongée
+LOCATION:PSL 91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Fièvre prolongée — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Fièvre prolongée — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-03-medecine-interne-15-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261103T150000
+DTEND;TZID=Europe/Paris:20261103T160000
+SUMMARY:Médecine interne — Maladies auto-immunes
+LOCATION:PSL 91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Maladies auto-immunes — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Maladies auto-immunes — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-03-medecine-interne-16-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261103T160000
+DTEND;TZID=Europe/Paris:20261103T170000
+SUMMARY:Médecine interne — Corticothérapie
+LOCATION:PSL 91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Corticothérapie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Corticothérapie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-04-hematologie-non-enregistr-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261104T140000
+DTEND;TZID=Europe/Paris:20261104T160000
+SUMMARY:Hématologie — Vaquez\, thrombocytémie\, LMC\, éosinophilie / Items : 208\, 214\, 314
+LOCATION:PSL 91\, salle 616
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — Vaquez\, thrombocytémie\, LMC\, éosinophilie / Items : 208\, 214\, 314 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — Vaquez\, thrombocytémie\, LMC\, éosinophilie / Items : 208\, 214\, 314 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-04-oncologie-16-15@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261104T161500
+DTEND;TZID=Europe/Paris:20261104T181500
+SUMMARY:Oncologie — Item 298. Tumeur du colon et du rectum\nItem 301. Tumeurs du foie\, primitives et secondaires
+LOCATION:PSL 91\, salle 511
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — Item 298. Tumeur du colon et du rectum\nItem 301. Tumeurs du foie\, primitives et secondaires — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — Item 298. Tumeur du colon et du rectum\nItem 301. Tumeurs du foie\, primitives et secondaires — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-05-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261105T183000
+DTEND;TZID=Europe/Paris:20261105T210000
+SUMMARY:LCA
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:LCA — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:LCA — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-06-psychiatrie-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261106T140000
+DTEND;TZID=Europe/Paris:20261106T160000
+SUMMARY:Psychiatrie — N° 75. Addiction au tabac \n  N° 76. Addiction à l’alcool.
+LOCATION:PSL91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 75. Addiction au tabac \n  N° 76. Addiction à l’alcool. — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 75. Addiction au tabac \n  N° 76. Addiction à l’alcool. — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-06-psychiatrie-16-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261106T160000
+DTEND;TZID=Europe/Paris:20261106T180000
+SUMMARY:Psychiatrie — N° 352. Crise d'angoisse aiguë et attaque de panique (posologies).\n  N° 66g\, c\, d\, g. Diagnostiquer: un trouble anxieux généralisé\, un trouble panique\, un trouble phobique\, un trouble de l’adaptation \n  N° 71. Différents types de techniques psychothérapeutiques \n  N°72. Prescription et surveillance 
+LOCATION:PSL91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 352. Crise d'angoisse aiguë et attaque de panique (posologies).\n  N° 66g\, c\, d\, g. Diagnostiquer: un trouble anxieux généralisé\, un trouble panique\, un trouble phobique\, un trouble de l’adaptation \n  N° 71. Différents types de techniques psychothérapeutiques \n  N°72. Prescription et surveillance  — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 352. Crise d'angoisse aiguë et attaque de panique (posologies).\n  N° 66g\, c\, d\, g. Diagnostiquer: un trouble anxieux généralisé\, un trouble panique\, un trouble phobique\, un trouble de l’adaptation \n  N° 71. Différents types de techniques psychothérapeutiques \n  N°72. Prescription et surveillance  — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-09-atelier-acr-du-nourrisson-09-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261109T090000
+DTEND;TZID=Europe/Paris:20261109T130000
+SUMMARY:Atelier ACR du nourrisson
+LOCATION:Plateforme PULSE\, Trousseau\, bâtiment Lemariey
+DESCRIPTION:Trois phases d'une heure puis une évaluation obligatoire\, qui conditionne la validation de la pédiatrie.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Atelier ACR du nourrisson — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Atelier ACR du nourrisson — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-09-geriatrie-non-enregistr-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261109T140000
+DTEND;TZID=Europe/Paris:20261109T140000
+SUMMARY:Gériatrie — Malaise\, syncope \; Protection juridique + ville hôpital \;
+LOCATION:PSL 105\, AMPHI E
+DESCRIPTION:Horaire non interprétable dans le sheet
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gériatrie — Malaise\, syncope \; Protection juridique + ville hôpital \; — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Gériatrie — Malaise\, syncope \; Protection juridique + ville hôpital \; — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-09-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261109T183000
+DTEND;TZID=Europe/Paris:20261109T210000
+SUMMARY:Endo-diabeto-nut2
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Endo-diabeto-nut2 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Endo-diabeto-nut2 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-10-atelier-acr-du-nourrisson-09-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261110T090000
+DTEND;TZID=Europe/Paris:20261110T130000
+SUMMARY:Atelier ACR du nourrisson
+LOCATION:Plateforme PULSE\, Trousseau\, bâtiment Lemariey
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Atelier ACR du nourrisson — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Atelier ACR du nourrisson — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-10-pediatrie-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261110T140000
+DTEND;TZID=Europe/Paris:20261110T153000
+SUMMARY:Pédiatrie — Chirurgie viscérale
+LOCATION:Trousseau\, Sorrel
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Chirurgie viscérale — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Chirurgie viscérale — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-10-pediatrie-15-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261110T153000
+DTEND;TZID=Europe/Paris:20261110T170000
+SUMMARY:Pédiatrie — réanimation
+LOCATION:Trousseau\, Sorrel
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — réanimation — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — réanimation — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-11-choix-de-stage-n-2-09-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261111T090000
+DTEND;TZID=Europe/Paris:20261111T130000
+SUMMARY:Choix de stage n°2
+LOCATION:Zoom
+DESCRIPTION:Maintenu bien que le 11 novembre soit férié. Topos par pôle\, puis choix des postes.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Choix de stage n°2 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Choix de stage n°2 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-12-ecos-de-pediatrie-08-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261112T083000
+DTEND;TZID=Europe/Paris:20261112T123000
+SUMMARY:ECOS de pédiatrie
+DESCRIPTION:Répartition entre les deux jours faite par le secrétariat du département.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:ECOS de pédiatrie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:ECOS de pédiatrie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-12-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261112T183000
+DTEND;TZID=Europe/Paris:20261112T210000
+SUMMARY:MPR
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:MPR — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:MPR — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-13-psychiatrie-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261113T140000
+DTEND;TZID=Europe/Paris:20261113T180000
+SUMMARY:Psychiatrie — N° 64. Trouble bipolaire de l’adolescent\n  N° 66a. Diagnostiquer : un trouble dépressif\n  N° 353. Risque et conduite suicidaires chez l'enfant\, l'adolescent
+LOCATION:PSL91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 64. Trouble bipolaire de l’adolescent\n  N° 66a. Diagnostiquer : un trouble dépressif\n  N° 353. Risque et conduite suicidaires chez l'enfant\, l'adolescent — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 64. Trouble bipolaire de l’adolescent\n  N° 66a. Diagnostiquer : un trouble dépressif\n  N° 353. Risque et conduite suicidaires chez l'enfant\, l'adolescent — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-16-ecos-de-pediatrie-08-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261116T083000
+DTEND;TZID=Europe/Paris:20261116T123000
+SUMMARY:ECOS de pédiatrie
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:ECOS de pédiatrie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:ECOS de pédiatrie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-16-geriatrie-non-enregistr-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261116T140000
+DTEND;TZID=Europe/Paris:20261116T140000
+SUMMARY:Gériatrie — Soins pall\, hypercalcémie et incontinence\; Ostéoporose\, diabète
+LOCATION:PSL 105\, AMPHI E
+DESCRIPTION:Horaire non interprétable dans le sheet
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gériatrie — Soins pall\, hypercalcémie et incontinence\; Ostéoporose\, diabète — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Gériatrie — Soins pall\, hypercalcémie et incontinence\; Ostéoporose\, diabète — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-16-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261116T183000
+DTEND;TZID=Europe/Paris:20261116T210000
+SUMMARY:Gynéco-obstétrique
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gynéco-obstétrique — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Gynéco-obstétrique — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-17-atelier-acr-du-nourrisson-09-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261117T090000
+DTEND;TZID=Europe/Paris:20261117T130000
+SUMMARY:Atelier ACR du nourrisson
+LOCATION:Plateforme PULSE\, Trousseau\, bâtiment Lemariey
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Atelier ACR du nourrisson — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Atelier ACR du nourrisson — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-17-medecine-interne-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261117T140000
+DTEND;TZID=Europe/Paris:20261117T170000
+SUMMARY:Médecine interne — Lupus SAPL : sujets dans UNESS  DFASM2 entrainement
+LOCATION:PSL 91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Lupus SAPL : sujets dans UNESS  DFASM2 entrainement — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Lupus SAPL : sujets dans UNESS  DFASM2 entrainement — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-18-atelier-acr-du-nourrisson-09-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261118T090000
+DTEND;TZID=Europe/Paris:20261118T130000
+SUMMARY:Atelier ACR du nourrisson
+LOCATION:Plateforme PULSE\, Trousseau\, bâtiment Lemariey
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Atelier ACR du nourrisson — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Atelier ACR du nourrisson — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-18-hematologie-non-enregistr-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261118T140000
+DTEND;TZID=Europe/Paris:20261118T160000
+SUMMARY:Hématologie — Anomalies de la coagulation / Items : 212\, 224
+LOCATION:PSL 91\, salle 616
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — Anomalies de la coagulation / Items : 212\, 224 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — Anomalies de la coagulation / Items : 212\, 224 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-18-oncologie-16-15@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261118T161500
+DTEND;TZID=Europe/Paris:20261118T181500
+SUMMARY:Oncologie — Item 309. Tumeurs du sein
+LOCATION:PSL 91\, salle 511
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — Item 309. Tumeurs du sein — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — Item 309. Tumeurs du sein — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261119T183000
+DTEND;TZID=Europe/Paris:20261119T210000
+SUMMARY:Pneumologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pneumologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pneumologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-20-psychiatrie-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261120T140000
+DTEND;TZID=Europe/Paris:20261120T180000
+SUMMARY:Psychiatrie — N° 60. Connaître les facteurs de risque\, prévention\, dépistage des troubles psychiques de l’enfant\n  N° 61. Connaître les bases des classifications des troubles mentaux de l’enfant\n  N° 66. Trouble anxieux généralisé\, Trouble panique\, Trouble phobique\, Trouble obsessionnel compulsif\, un état de stre
+LOCATION:PSL91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 60. Connaître les facteurs de risque\, prévention\, dépistage des troubles psychiques de l’enfant\n  N° 61. Connaître les bases des classifications des troubles mentaux de l’enfant\n  N° 66. Trouble anxieux généralisé\, Trouble panique\, Trouble phobique\, Trouble obsessionnel compulsif\, un état de stre — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 60. Connaître les facteurs de risque\, prévention\, dépistage des troubles psychiques de l’enfant\n  N° 61. Connaître les bases des classifications des troubles mentaux de l’enfant\n  N° 66. Trouble anxieux généralisé\, Trouble panique\, Trouble phobique\, Trouble obsessionnel compulsif\, un état de stre — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-23-geriatrie-non-enregistr-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261123T140000
+DTEND;TZID=Europe/Paris:20261123T140000
+SUMMARY:Gériatrie — Nutrition\, dénutrition et hyponatrémie \; Douleurs et antalgiques
+LOCATION:PSL 105\, AMPHI E
+DESCRIPTION:Horaire non interprétable dans le sheet
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gériatrie — Nutrition\, dénutrition et hyponatrémie \; Douleurs et antalgiques — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Gériatrie — Nutrition\, dénutrition et hyponatrémie \; Douleurs et antalgiques — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-23-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261123T183000
+DTEND;TZID=Europe/Paris:20261123T210000
+SUMMARY:Rea&Anesth
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Rea&Anesth — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Rea&Anesth — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-24-pediatrie-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261124T140000
+DTEND;TZID=Europe/Paris:20261124T153000
+SUMMARY:Pédiatrie — Radio-pédiatrie
+LOCATION:Trousseau\, Sorrel
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Radio-pédiatrie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Radio-pédiatrie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-24-pediatrie-15-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261124T153000
+DTEND;TZID=Europe/Paris:20261124T170000
+SUMMARY:Pédiatrie — chirurgie orthopédique
+LOCATION:Trousseau\, Sorrel
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — chirurgie orthopédique — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — chirurgie orthopédique — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-25-hematologie-non-enregistr-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261125T140000
+DTEND;TZID=Europe/Paris:20261125T160000
+SUMMARY:Hématologie — Traitement antithrombotique/accidents anticoagulants / Items : 224\, 325\, 336
+LOCATION:PSL 91\, salle 616
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — Traitement antithrombotique/accidents anticoagulants / Items : 224\, 325\, 336 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — Traitement antithrombotique/accidents anticoagulants / Items : 224\, 325\, 336 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-26-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261126T183000
+DTEND;TZID=Europe/Paris:20261126T210000
+SUMMARY:Hématologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-27-psychiatrie-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261127T140000
+DTEND;TZID=Europe/Paris:20261127T180000
+SUMMARY:Psychiatrie — N° 61. Connaître les bases des classifications des troubles mentaux de l’enfant \n  N° 55. Développement psychomoteur du nourrisson et de l'enfant\n  N° 110. Troubles du sommeil de l'enfant et de l'adulte\n  N° 67. Principaux trouble du neurodeveloppement \n  N° 68. troubles du comportement de l'enfant 
+LOCATION:PSL91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 61. Connaître les bases des classifications des troubles mentaux de l’enfant \n  N° 55. Développement psychomoteur du nourrisson et de l'enfant\n  N° 110. Troubles du sommeil de l'enfant et de l'adulte\n  N° 67. Principaux trouble du neurodeveloppement \n  N° 68. troubles du comportement de l'enfant  — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — N° 61. Connaître les bases des classifications des troubles mentaux de l’enfant \n  N° 55. Développement psychomoteur du nourrisson et de l'enfant\n  N° 110. Troubles du sommeil de l'enfant et de l'adulte\n  N° 67. Principaux trouble du neurodeveloppement \n  N° 68. troubles du comportement de l'enfant  — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-30-cycle-2-jj@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:EDN blanc interrégional
+LOCATION:SAT et PSL\, salles info + D
+DESCRIPTION:Horaire non interprétable dans le sheet
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — demain
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-01-cycle-2-jj@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:EDN blanc interrégional
+LOCATION:SAT et PSL\, salles info + D
+DESCRIPTION:Horaire non interprétable dans le sheet
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — demain
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-02-cycle-2-09-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261202T090000
+DTEND;TZID=Europe/Paris:20261202T180000
+SUMMARY:EDN blanc interrégional
+LOCATION:PSL ou zoom\, amphi E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-03-cycle-2-09-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261203T090000
+DTEND;TZID=Europe/Paris:20261203T180000
+SUMMARY:EDN blanc interrégional
+LOCATION:PSL ou zoom\, amphi E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-04-cycle-2-09-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261204T090000
+DTEND;TZID=Europe/Paris:20261204T180000
+SUMMARY:EDN blanc interrégional
+LOCATION:PSL ou zoom\, amphi E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-07-debut-du-stage-2-jj@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Début du stage 2
+DESCRIPTION:Jusqu'au 21 février.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Début du stage 2 — demain
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-07-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261207T183000
+DTEND;TZID=Europe/Paris:20261207T210000
+SUMMARY:MIT
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:MIT — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:MIT — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-08-pediatrie-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261208T140000
+DTEND;TZID=Europe/Paris:20261208T170000
+SUMMARY:Pédiatrie — Neurologie
+LOCATION:Trousseau\, Sorrel
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Neurologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Neurologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-09-hematologie-non-enregistr-13-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261209T133000
+DTEND;TZID=Europe/Paris:20261209T160000
+SUMMARY:Hématologie — Hémato-transfusion
+LOCATION:PSL 91\, salle  511
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — Hémato-transfusion — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — Hémato-transfusion — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-10-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261210T183000
+DTEND;TZID=Europe/Paris:20261210T210000
+SUMMARY:Santé publique
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Santé publique — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Santé publique — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-14-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261214T183000
+DTEND;TZID=Europe/Paris:20261214T194500
+SUMMARY:Virologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Virologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Virologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-14-cycle-2-19-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261214T194500
+DTEND;TZID=Europe/Paris:20261214T210000
+SUMMARY:Ana-path
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Ana-path — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Ana-path — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-15-medecine-interne-14-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261215T140000
+DTEND;TZID=Europe/Paris:20261215T143000
+SUMMARY:Médecine interne — Splénomégalie - Adénopathie
+LOCATION:PSL 91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Splénomégalie - Adénopathie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Splénomégalie - Adénopathie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-15-medecine-interne-14-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261215T143000
+DTEND;TZID=Europe/Paris:20261215T151500
+SUMMARY:Médecine interne — Sarcoïdose
+LOCATION:PSL 91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Sarcoïdose — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Sarcoïdose — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-15-medecine-interne-15-15@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261215T151500
+DTEND;TZID=Europe/Paris:20261215T154500
+SUMMARY:Médecine interne — Purpura
+LOCATION:PSL 91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Purpura — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Purpura — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-15-medecine-interne-15-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261215T154500
+DTEND;TZID=Europe/Paris:20261215T163000
+SUMMARY:Médecine interne — Biothérapies
+LOCATION:PSL 91\, amphi C
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Biothérapies — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — Biothérapies — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-17-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20261217T183000
+DTEND;TZID=Europe/Paris:20261217T210000
+SUMMARY:OPH
+LOCATION:PSL105\, pas d'amphi
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:OPH — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:OPH — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-04-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270104T183000
+DTEND;TZID=Europe/Paris:20270104T210000
+SUMMARY:Médecine interne
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-05-pediatrie-13-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270105T130000
+DTEND;TZID=Europe/Paris:20270105T140000
+SUMMARY:Pédiatrie — Film préparation ACR stage 2
+LOCATION:Trousseau\, Sorrel
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Film préparation ACR stage 2 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Film préparation ACR stage 2 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-07-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270107T183000
+DTEND;TZID=Europe/Paris:20270107T210000
+SUMMARY:Psychiatrie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-11-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270111T183000
+DTEND;TZID=Europe/Paris:20270111T210000
+SUMMARY:Pédiatrie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-14-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270114T183000
+DTEND;TZID=Europe/Paris:20270114T194500
+SUMMARY:Génétique
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Génétique — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Génétique — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-14-cycle-2-19-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270114T194500
+DTEND;TZID=Europe/Paris:20270114T201500
+SUMMARY:Douleur
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Douleur — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Douleur — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-14-cycle-2-20-15@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270114T201500
+DTEND;TZID=Europe/Paris:20270114T204500
+SUMMARY:Med palliative
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Med palliative — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Med palliative — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-19-hematologie-13-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270119T133000
+DTEND;TZID=Europe/Paris:20270119T143000
+SUMMARY:Hématologie — EXAMEN
+LOCATION:SAINT-ANTOINE\, salles info 1-2-3 + amphi D
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — EXAMEN — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — EXAMEN — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-19-oncologie-15-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270119T150000
+DTEND;TZID=Europe/Paris:20270119T160000
+SUMMARY:Oncologie — EXAMEN
+LOCATION:SAINT-ANTOINE\, salles info 1-2-3 + amphi D
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — EXAMEN — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — EXAMEN — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-19-geriatrie-16-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270119T163000
+DTEND;TZID=Europe/Paris:20270119T173000
+SUMMARY:Gériatrie — EXAMEN
+LOCATION:SAINT-ANTOINE\, salles info 1-2-3 + amphi D
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gériatrie — EXAMEN — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Gériatrie — EXAMEN — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-21-pediatrie-13-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270121T133000
+DTEND;TZID=Europe/Paris:20270121T143000
+SUMMARY:Pédiatrie — EXAMEN
+LOCATION:SAINT-ANTOINE\, salles info 1-2-3 + amphi D
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — EXAMEN — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — EXAMEN — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-21-medecine-interne-15-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270121T150000
+DTEND;TZID=Europe/Paris:20270121T160000
+SUMMARY:Médecine interne — EXAMEN
+LOCATION:SAINT-ANTOINE\, salles info 1-2-3 + amphi D
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — EXAMEN — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine interne — EXAMEN — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-21-psychiatrie-16-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270121T163000
+DTEND;TZID=Europe/Paris:20270121T173000
+SUMMARY:Psychiatrie — EXAMEN
+LOCATION:SAINT-ANTOINE\, salles info 1-2-3 + amphi D
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — EXAMEN — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — EXAMEN — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-25-choix-de-stage-n-3-jj@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:Choix de stage n°3
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Choix de stage n°3 — demain
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-25-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270125T183000
+DTEND;TZID=Europe/Paris:20270125T210000
+SUMMARY:ORL
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:ORL — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:ORL — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-27-cycle-2-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270127T170000
+DTEND;TZID=Europe/Paris:20270127T183000
+SUMMARY:Gynéco-obstétrique
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gynéco-obstétrique — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Gynéco-obstétrique — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-27-cycle-2-18-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270127T184500
+DTEND;TZID=Europe/Paris:20270127T201500
+SUMMARY:Gynéco-obstétrique
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gynéco-obstétrique — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Gynéco-obstétrique — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-28-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270128T183000
+DTEND;TZID=Europe/Paris:20270128T210000
+SUMMARY:Psychiatrie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-01-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270201T183000
+DTEND;TZID=Europe/Paris:20270201T210000
+SUMMARY:Urgences
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Urgences — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Urgences — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-03-cycle-2-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270203T170000
+DTEND;TZID=Europe/Paris:20270203T183000
+SUMMARY:Dermatologie
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Dermatologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Dermatologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-03-cycle-2-18-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270203T184500
+DTEND;TZID=Europe/Paris:20270203T201500
+SUMMARY:Allergologie
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Allergologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Allergologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-04-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270204T183000
+DTEND;TZID=Europe/Paris:20270204T210000
+SUMMARY:Oncologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-08-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270208T183000
+DTEND;TZID=Europe/Paris:20270208T210000
+SUMMARY:Gériatrie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gériatrie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Gériatrie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-10-cycle-2-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270210T170000
+DTEND;TZID=Europe/Paris:20270210T183000
+SUMMARY:Cardiologie
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Cardiologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Cardiologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-10-cycle-2-18-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270210T184500
+DTEND;TZID=Europe/Paris:20270210T201500
+SUMMARY:Cardiologie
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Cardiologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Cardiologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-11-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270211T183000
+DTEND;TZID=Europe/Paris:20270211T210000
+SUMMARY:Neurologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Neurologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Neurologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-15-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270215T183000
+DTEND;TZID=Europe/Paris:20270215T193000
+SUMMARY:Cardiologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Cardiologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Cardiologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-17-cycle-2-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270217T170000
+DTEND;TZID=Europe/Paris:20270217T174500
+SUMMARY:OPH
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:OPH — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:OPH — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-17-cycle-2-17-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270217T174500
+DTEND;TZID=Europe/Paris:20270217T183000
+SUMMARY:Ana-path
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Ana-path — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Ana-path — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-17-cycle-2-18-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270217T184500
+DTEND;TZID=Europe/Paris:20270217T201500
+SUMMARY:Bactério
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Bactério — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Bactério — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-18-ecos-facultaires-n-2-jj@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+SUMMARY:ECOS facultaires n°2
+DESCRIPTION:Matin et après-midi. Compte pour 30 % de la note de contrôle continu.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:ECOS facultaires n°2 — demain
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-18-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270218T183000
+DTEND;TZID=Europe/Paris:20270218T210000
+SUMMARY:LCA
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:LCA — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:LCA — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-22-debut-du-stage-3-jj@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+SUMMARY:Début du stage 3
+DESCRIPTION:Jusqu'au 9 mai\, dont une semaine d'EDN blanc.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Début du stage 3 — demain
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-22-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270222T183000
+DTEND;TZID=Europe/Paris:20270222T194500
+SUMMARY:Médecine légale et travail ?
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine légale et travail ? — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine légale et travail ? — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-22-cycle-2-19-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270222T194500
+DTEND;TZID=Europe/Paris:20270222T210000
+SUMMARY:Psychiatrie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-23-pediatrie-13-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270223T130000
+DTEND;TZID=Europe/Paris:20270223T140000
+SUMMARY:Pédiatrie — Film préparation ACR stage 3
+LOCATION:Trousseau\, Sorrel
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Film préparation ACR stage 3 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Film préparation ACR stage 3 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-24-cycle-2-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270224T170000
+DTEND;TZID=Europe/Paris:20270224T183000
+SUMMARY:Hématologie
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-24-cycle-2-18-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270224T184500
+DTEND;TZID=Europe/Paris:20270224T201500
+SUMMARY:Radiologie
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Radiologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Radiologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-25-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270225T183000
+DTEND;TZID=Europe/Paris:20270225T193000
+SUMMARY:Médecine générale
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine générale — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine générale — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-01-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270301T183000
+DTEND;TZID=Europe/Paris:20270301T210000
+SUMMARY:Hématologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-03-cycle-2-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270303T170000
+DTEND;TZID=Europe/Paris:20270303T183000
+SUMMARY:Réa
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Réa — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Réa — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-03-cycle-2-18-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270303T184500
+DTEND;TZID=Europe/Paris:20270303T201500
+SUMMARY:Anesthesie
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Anesthesie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Anesthesie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-04-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270304T183000
+DTEND;TZID=Europe/Paris:20270304T210000
+SUMMARY:Pédiatrie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-08-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270308T183000
+DTEND;TZID=Europe/Paris:20270308T210000
+SUMMARY:Oncologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-10-cycle-2-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270310T170000
+DTEND;TZID=Europe/Paris:20270310T174500
+SUMMARY:CMF
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:CMF — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:CMF — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-10-cycle-2-17-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270310T174500
+DTEND;TZID=Europe/Paris:20270310T183000
+SUMMARY:ORL
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:ORL — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:ORL — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-10-cycle-2-18-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270310T184500
+DTEND;TZID=Europe/Paris:20270310T201500
+SUMMARY:Parasito
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Parasito — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Parasito — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-11-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270311T183000
+DTEND;TZID=Europe/Paris:20270311T210000
+SUMMARY:Radiologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Radiologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Radiologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-15-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270315T183000
+DTEND;TZID=Europe/Paris:20270315T210000
+SUMMARY:Pédiatrie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-17-cycle-2-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270317T170000
+DTEND;TZID=Europe/Paris:20270317T183000
+SUMMARY:Urologie
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Urologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Urologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-17-cycle-2-18-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270317T184500
+DTEND;TZID=Europe/Paris:20270317T201500
+SUMMARY:Radiologie
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Radiologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Radiologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-18-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270318T183000
+DTEND;TZID=Europe/Paris:20270318T210000
+SUMMARY:MIT
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:MIT — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:MIT — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-22-semaine-de-rattrapages-jj@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+SUMMARY:Semaine de rattrapages
+DESCRIPTION:Matinées et après-midis.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Semaine de rattrapages — demain
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-22-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270322T183000
+DTEND;TZID=Europe/Paris:20270322T210000
+SUMMARY:LCA
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:LCA — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:LCA — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-24-cycle-2-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270324T170000
+DTEND;TZID=Europe/Paris:20270324T183000
+SUMMARY:Psychiatrie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-24-cycle-2-18-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270324T184500
+DTEND;TZID=Europe/Paris:20270324T201500
+SUMMARY:Psychiatrie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Psychiatrie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-25-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270325T183000
+DTEND;TZID=Europe/Paris:20270325T210000
+SUMMARY:HGE
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:HGE — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:HGE — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-30-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270330T183000
+DTEND;TZID=Europe/Paris:20270330T210000
+SUMMARY:Cardiologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Cardiologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Cardiologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-31-cycle-2-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270331T170000
+DTEND;TZID=Europe/Paris:20270331T183000
+SUMMARY:Gériatrie
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gériatrie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Gériatrie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-31-cycle-2-18-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270331T184500
+DTEND;TZID=Europe/Paris:20270331T201500
+SUMMARY:Virologie
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Virologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Virologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-01-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270401T183000
+DTEND;TZID=Europe/Paris:20270401T210000
+SUMMARY:Gynéco-obstétrique
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gynéco-obstétrique — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Gynéco-obstétrique — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-05-cycle-2-09-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270405T090000
+DTEND;TZID=Europe/Paris:20270405T170000
+SUMMARY:EDN blanc interrégional
+LOCATION:SAT et PSL\, salle info et amphi D
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-06-cycle-2-09-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270406T090000
+DTEND;TZID=Europe/Paris:20270406T170000
+SUMMARY:EDN blanc interrégional
+LOCATION:SAT et PSL\, salle info et amphi D
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-07-cycle-2-09-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270407T090000
+DTEND;TZID=Europe/Paris:20270407T180000
+SUMMARY:EDN blanc interrégional
+LOCATION:/\, amphi E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-08-cycle-2-09-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270408T090000
+DTEND;TZID=Europe/Paris:20270408T180000
+SUMMARY:EDN blanc interrégional
+LOCATION:/\, amphi E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-09-cycle-2-09-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270409T090000
+DTEND;TZID=Europe/Paris:20270409T180000
+SUMMARY:EDN blanc interrégional
+LOCATION:/\, amphi E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-12-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270412T183000
+DTEND;TZID=Europe/Paris:20270412T194500
+SUMMARY:Neurologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Neurologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Neurologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-12-cycle-2-19-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270412T194500
+DTEND;TZID=Europe/Paris:20270412T210000
+SUMMARY:MIT
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:MIT — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:MIT — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-14-cycle-2-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270414T170000
+DTEND;TZID=Europe/Paris:20270414T183000
+SUMMARY:Neurologie
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Neurologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Neurologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-14-cycle-2-18-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270414T184500
+DTEND;TZID=Europe/Paris:20270414T201500
+SUMMARY:Neurologie
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Neurologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Neurologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-15-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270415T183000
+DTEND;TZID=Europe/Paris:20270415T194500
+SUMMARY:OPH
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:OPH — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:OPH — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-15-cycle-2-19-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270415T194500
+DTEND;TZID=Europe/Paris:20270415T210000
+SUMMARY:ORL
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:ORL — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:ORL — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-19-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270419T183000
+DTEND;TZID=Europe/Paris:20270419T210000
+SUMMARY:Endo-diabeto-nut3
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Endo-diabeto-nut3 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Endo-diabeto-nut3 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-21-cycle-2-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270421T170000
+DTEND;TZID=Europe/Paris:20270421T183000
+SUMMARY:MIT
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:MIT — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:MIT — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-21-cycle-2-18-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270421T184500
+DTEND;TZID=Europe/Paris:20270421T201500
+SUMMARY:MIT
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:MIT — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:MIT — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-22-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270422T183000
+DTEND;TZID=Europe/Paris:20270422T210000
+SUMMARY:LCA
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:LCA — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:LCA — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-26-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270426T183000
+DTEND;TZID=Europe/Paris:20270426T210000
+SUMMARY:Santé publique
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Santé publique — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Santé publique — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-29-ccc-ecrit-jj@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:CCC écrit
+DESCRIPTION:Deux épreuves de 3h sur le programme du deuxième cycle. Correction le 30 avril\, rattrapage le 17 juin.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:CCC écrit — demain
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-29-certificat-de-competence-clinique-09-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270429T090000
+DTEND;TZID=Europe/Paris:20270429T170000
+SUMMARY:CERTIFICAT DE COMPETENCE CLINIQUE — Examen écrit
+LOCATION:SAINT-ANTOINE\, salles info 1-2-3 + amphi D
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:CERTIFICAT DE COMPETENCE CLINIQUE — Examen écrit — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:CERTIFICAT DE COMPETENCE CLINIQUE — Examen écrit — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-29-cycle-2-09-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270429T090000
+DTEND;TZID=Europe/Paris:20270429T170000
+SUMMARY:examen CSCT
+LOCATION:SAT et PSL\, salles infos et D
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:examen CSCT — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:examen CSCT — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-30-certificat-de-competence-clinique-09-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270430T090000
+DTEND;TZID=Europe/Paris:20270430T180000
+SUMMARY:CERTIFICAT DE COMPETENCE CLINIQUE — Correction CCC
+LOCATION:PSL105\, Amphi A
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:CERTIFICAT DE COMPETENCE CLINIQUE — Correction CCC — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:CERTIFICAT DE COMPETENCE CLINIQUE — Correction CCC — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-30-cycle-2-09-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270430T090000
+DTEND;TZID=Europe/Paris:20270430T180000
+SUMMARY:Correction
+LOCATION:PSL
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Correction — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Correction — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-03-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270503T183000
+DTEND;TZID=Europe/Paris:20270503T210000
+SUMMARY:Gériatrie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gériatrie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Gériatrie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-05-cycle-2-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270505T170000
+DTEND;TZID=Europe/Paris:20270505T183000
+SUMMARY:HGE
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:HGE — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:HGE — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-05-cycle-2-18-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270505T184500
+DTEND;TZID=Europe/Paris:20270505T201500
+SUMMARY:Génetique
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Génetique — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Génetique — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-10-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270510T183000
+DTEND;TZID=Europe/Paris:20270510T210000
+SUMMARY:Rea&Anesth
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Rea&Anesth — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Rea&Anesth — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-12-cycle-2-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270512T170000
+DTEND;TZID=Europe/Paris:20270512T183000
+SUMMARY:Néphrologie
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Néphrologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Néphrologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-12-cycle-2-18-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270512T184500
+DTEND;TZID=Europe/Paris:20270512T201500
+SUMMARY:Néphrologie
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Néphrologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Néphrologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-13-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270513T183000
+DTEND;TZID=Europe/Paris:20270513T210000
+SUMMARY:Orthopédie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Orthopédie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Orthopédie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-17-cycle-2-jj@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:/
+LOCATION:/\, /
+DESCRIPTION:Horaire non interprétable dans le sheet
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:/ — demain
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-18-pediatrie-13-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270518T130000
+DTEND;TZID=Europe/Paris:20270518T140000
+SUMMARY:Pédiatrie — Film préparation ACR stage 4
+LOCATION:Trousseau\, Sorrel
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Film préparation ACR stage 4 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — Film préparation ACR stage 4 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-19-cycle-2-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270519T170000
+DTEND;TZID=Europe/Paris:20270519T183000
+SUMMARY:Oncologie
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-19-cycle-2-18-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270519T184500
+DTEND;TZID=Europe/Paris:20270519T201500
+SUMMARY:Médecine nucléaire
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine nucléaire — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine nucléaire — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-20-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270520T183000
+DTEND;TZID=Europe/Paris:20270520T194500
+SUMMARY:MPR
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:MPR — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:MPR — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-20-cycle-2-19-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270520T194500
+DTEND;TZID=Europe/Paris:20270520T210000
+SUMMARY:CMF
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:CMF — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:CMF — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-24-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270524T183000
+DTEND;TZID=Europe/Paris:20270524T210000
+SUMMARY:Pédiatrie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-26-cycle-2-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270526T170000
+DTEND;TZID=Europe/Paris:20270526T183000
+SUMMARY:Rhumatologie
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Rhumatologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Rhumatologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-26-cycle-2-18-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270526T184500
+DTEND;TZID=Europe/Paris:20270526T201500
+SUMMARY:Médecine générale
+LOCATION:PSL105\, AMPHI E
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine générale — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine générale — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-27-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270527T183000
+DTEND;TZID=Europe/Paris:20270527T210000
+SUMMARY:Neurologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Neurologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Neurologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-31-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270531T183000
+DTEND;TZID=Europe/Paris:20270531T210000
+SUMMARY:LCA
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:LCA — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:LCA — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-02-cycle-2-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270602T170000
+DTEND;TZID=Europe/Paris:20270602T183000
+SUMMARY:Pneumologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pneumologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pneumologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-02-cycle-2-18-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270602T184500
+DTEND;TZID=Europe/Paris:20270602T201500
+SUMMARY:Pneumologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pneumologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pneumologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-03-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270603T183000
+DTEND;TZID=Europe/Paris:20270603T210000
+SUMMARY:Urologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Urologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Urologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-07-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270607T183000
+DTEND;TZID=Europe/Paris:20270607T210000
+SUMMARY:Néphrologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Néphrologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Néphrologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-09-cycle-2-jj@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+SUMMARY:à conserver - Quiz et A du 17/02 ?
+LOCATION:/\, /
+DESCRIPTION:Horaire non interprétable dans le sheet
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:à conserver - Quiz et A du 17/02 ? — demain
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-10-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270610T183000
+DTEND;TZID=Europe/Paris:20270610T210000
+SUMMARY:Oncologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Oncologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-14-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270614T183000
+DTEND;TZID=Europe/Paris:20270614T210000
+SUMMARY:Pneumologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pneumologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pneumologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-16-cycle-2-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270616T170000
+DTEND;TZID=Europe/Paris:20270616T183000
+SUMMARY:Endocrino
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Endocrino — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Endocrino — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-16-cycle-2-18-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270616T184500
+DTEND;TZID=Europe/Paris:20270616T201500
+SUMMARY:Endocrino
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Endocrino — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Endocrino — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-17-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270617T183000
+DTEND;TZID=Europe/Paris:20270617T194500
+SUMMARY:Hématologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Hématologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-21-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270621T183000
+DTEND;TZID=Europe/Paris:20270621T210000
+SUMMARY:Dermatologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Dermatologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Dermatologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-23-cycle-2-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270623T170000
+DTEND;TZID=Europe/Paris:20270623T183000
+SUMMARY:Pédiatrie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-23-cycle-2-18-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270623T184500
+DTEND;TZID=Europe/Paris:20270623T201500
+SUMMARY:Pédiatrie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Pédiatrie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-24-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270624T183000
+DTEND;TZID=Europe/Paris:20270624T210000
+SUMMARY:Rhumatologie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Rhumatologie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Rhumatologie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-28-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270628T183000
+DTEND;TZID=Europe/Paris:20270628T210000
+SUMMARY:LCA
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:LCA — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:LCA — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-30-cycle-2-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270630T170000
+DTEND;TZID=Europe/Paris:20270630T183000
+SUMMARY:Orthopédie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Orthopédie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Orthopédie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-30-cycle-2-18-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270630T184500
+DTEND;TZID=Europe/Paris:20270630T201500
+SUMMARY:Orthopédie
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Orthopédie — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Orthopédie — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-01-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270701T183000
+DTEND;TZID=Europe/Paris:20270701T210000
+SUMMARY:Médecine générale
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine générale — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine générale — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-05-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270705T183000
+DTEND;TZID=Europe/Paris:20270705T210000
+SUMMARY:Médecine Interne
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine Interne — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine Interne — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-07-cycle-2-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270707T170000
+DTEND;TZID=Europe/Paris:20270707T183000
+SUMMARY:Médecine Interne
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Médecine Interne — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Médecine Interne — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-07-cycle-2-18-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270707T184500
+DTEND;TZID=Europe/Paris:20270707T201500
+SUMMARY:réserve
+LOCATION:PSL105\, AMPHI F
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:réserve — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:réserve — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-08-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270708T183000
+DTEND;TZID=Europe/Paris:20270708T210000
+SUMMARY:EDN blanc interrégional
+LOCATION:attente
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-12-cycle-2-08-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270712T080000
+DTEND;TZID=Europe/Paris:20270712T173000
+SUMMARY:ED Blanc ???
+LOCATION:SAT et PSL
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:ED Blanc ??? — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:ED Blanc ??? — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-13-cycle-2-08-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270713T080000
+DTEND;TZID=Europe/Paris:20270713T173000
+SUMMARY:en attente
+LOCATION:SAT et PSL
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:en attente — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:en attente — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-15-cycle-2-08-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270715T080000
+DTEND;TZID=Europe/Paris:20270715T173000
+SUMMARY:EDN blanc interrégional
+LOCATION:SAT et PSL
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-16-cycle-2-08-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270716T080000
+DTEND;TZID=Europe/Paris:20270716T173000
+SUMMARY:EDN blanc interrégional
+LOCATION:SAT et PSL
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-19-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270719T183000
+DTEND;TZID=Europe/Paris:20270719T210000
+SUMMARY:reserve
+LOCATION:attente
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:reserve — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:reserve — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-21-cycle-2-17-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270721T170000
+DTEND;TZID=Europe/Paris:20270721T183000
+SUMMARY:EDN blanc interrégional
+LOCATION:attente
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-21-cycle-2-18-45@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270721T184500
+DTEND;TZID=Europe/Paris:20270721T201500
+SUMMARY:EDN blanc interrégional
+LOCATION:attente
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-22-cycle-2-18-30@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270722T183000
+DTEND;TZID=Europe/Paris:20270722T210000
+SUMMARY:reserve
+LOCATION:attente
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:reserve — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:reserve — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-02-cycle-2-09-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270902T090000
+DTEND;TZID=Europe/Paris:20270902T170000
+SUMMARY:ED blanc inter CHU D4
+LOCATION:SAT et PSL\, salle info et amphi D
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:ED blanc inter CHU D4 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:ED blanc inter CHU D4 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-03-cycle-2-09-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270903T090000
+DTEND;TZID=Europe/Paris:20270903T170000
+SUMMARY:ED blanc inter CHU D4
+LOCATION:SAT et PSL\, salle info et amphi D
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:ED blanc inter CHU D4 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:ED blanc inter CHU D4 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-06-cycle-2-09-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270906T090000
+DTEND;TZID=Europe/Paris:20270906T170000
+SUMMARY:ED Blanc nouveaux D3
+LOCATION:SAT et PSL\, salle info et amphi D
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:ED Blanc nouveaux D3 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:ED Blanc nouveaux D3 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-07-cycle-2-09-00@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;TZID=Europe/Paris:20270907T090000
+DTEND;TZID=Europe/Paris:20270907T170000
+SUMMARY:ED Blanc nouveaux D3
+LOCATION:SAT et PSL\, salle info et amphi D
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:ED Blanc nouveaux D3 — demain
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:ED Blanc nouveaux D3 — dans une heure
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-08-cycle-2-jj@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;VALUE=DATE:20270908
+DTEND;VALUE=DATE:20270909
+SUMMARY:EDN blanc interrégional
+DESCRIPTION:Horaire non interprétable dans le sheet
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — demain
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-09-cycle-2-jj@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;VALUE=DATE:20270909
+DTEND;VALUE=DATE:20270910
+SUMMARY:EDN blanc interrégional
+DESCRIPTION:Horaire non interprétable dans le sheet
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — demain
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-10-cycle-2-jj@planning-dfasm2
+DTSTAMP:20260915T122529Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270911
+SUMMARY:EDN blanc interrégional
+DESCRIPTION:Horaire non interprétable dans le sheet
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:EDN blanc interrégional — demain
+END:VALARM
+END:VEVENT
+END:VCALENDAR

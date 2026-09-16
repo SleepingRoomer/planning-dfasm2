@@ -14,6 +14,12 @@ doute sur un horaire ou un lieu, le document officiel de la faculté fait foi.
   pôle renseignés (rien de ce qui est saisi ne quitte le navigateur).
 - Export `.ics` : un événement, un onglet ou tout le planning, avec rappels
   configurables (la veille, une heure avant).
+- Abonnement `.ics` (`public/ics/tout.ics`, régénéré à chaque synchronisation
+  réussie) : contrairement au téléchargement, le calendrier de l'étudiant
+  revient vérifier lui-même les mises à jour — pas instantané (dépend de la
+  fréquence de rafraîchissement de Google/Apple/Outlook), mais sans rien
+  refaire à la main. Ne couvre pas l'UE LCA (facultative, non résoluble pour
+  tout le monde à la fois côté serveur).
 
 ## D'où viennent les données
 
@@ -80,8 +86,8 @@ npm run ingest    # relance scripts/ingest.mjs en local
 
 - Le parseur de l'onglet visuel « Emploi du temps » (ateliers, choix de
   stage, liens Zoom) — sa structure en grille demande une passe dédiée.
-- Les fichiers `.ics` pré-générés par le workflow, pour s'abonner au
-  planning plutôt que le télécharger à la main.
+- Des flux d'abonnement par groupe/matière (un seul flux global existe pour
+  l'instant, `public/ics/tout.ics`).
 - La généralisation à d'autres promos que DFASM2.
 
 ## Confidentialité

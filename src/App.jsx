@@ -1,5 +1,6 @@
 import React, { useState, useMemo, useEffect } from "react";
-import { SEED_EVENTS, H, O, P, MI, PSY, G, C2 } from "./data/seed.js";
+import { H, O, P, MI, PSY, G, C2, fusionner, depuisSheet } from "./data/merge.js";
+import { buildICS, RAPPELS_DEFAUT } from "./lib/ics.js";
 
 /* ------------------------------------------------------------------ *
  *  Planning DFASM2 2026-2027 — prototype v3
@@ -96,66 +97,6 @@ const GROUPES = [
   { id: "promo",    nom: "Vie de la promo",   test: (ev) => ev.type === "admin" },
 ];
 
-/* --------------------- fusion sheet ↔ événements en dur --------------------- */
-
-/* Types que le sheet peut produire (cf. scripts/ingest.mjs). Tout événement
-   d'un de ces types dans seed.js sert de filet de secours pour cette même
-   portion du planning ; le reste (admin, ateliers, ECOS, UE LCA) n'est
-   jamais sourcé du sheet et reste affiché en permanence. */
-const TYPES_SOURCABLES = new Set(["cm", "ed", "conf", "examen", "edn"]);
-// Un horaire précis (s+e) est aussi requis : "Semaine de rattrapages" et
-// "CCC écrit" sont de type "examen" mais sans plage horaire — ce sont des
-// annonces de la notice, pas des lignes du déroulé, qui lui renseigne
-// toujours un début et une fin.
-const estSourcable = (ev) => TYPES_SOURCABLES.has(ev.type) && ev.opt !== "lca" && Boolean(ev.s);
-
-const EVENEMENTS_PERMANENTS = SEED_EVENTS.filter((ev) => !estSourcable(ev));
-const EVENEMENTS_SEED_SOURCABLES = SEED_EVENTS.filter(estSourcable);
-
-/* "cours" (déroulé) -> cm/ed sont indiscernables une fois publiés ; le
-   déroulé ne distingue que cours/examen, donc tout "cours" retombe sur la
-   couleur "cm" (identique à "ed" dans TYPES). */
-const TYPE_DEPUIS_SHEET = {
-  cours: "cm", examen: "examen", edn: "edn", quiz: "quiz", rangA: "rangA", conf: "conf",
-};
-
-/* Le sheet écrit la matière en capitales sans accent, parfois suffixée
-   ("HEMATOLOGIE (non enregistré)") : à normaliser vers les constantes
-   H/O/P/MI/PSY/G/C2 utilisées par GROUPES, sans quoi aucun événement
-   synchronisé ne rejoindrait jamais son onglet de matière. Vérifié contre
-   la sortie réelle du premier passage du workflow. Une matière qui ne
-   matche aucune entrée connue est laissée telle quelle plutôt que perdue :
-   l'événement reste visible dans "Tout à venir", simplement sans onglet dédié. */
-const CANON_MATIERE = {
-  HEMATOLOGIE: H, ONCOLOGIE: O, PEDIATRIE: P,
-  "MEDECINE INTERNE": MI, PSYCHIATRIE: PSY, GERIATRIE: G,
-  "CYCLE 2": C2,
-};
-function normaliserMatiere(brut) {
-  if (!brut) return undefined;
-  const cle = brut
-    .normalize("NFD").replace(/[̀-ͯ]/g, "")
-    .replace(/\s*\([^)]*\)\s*$/, "")
-    .trim().toUpperCase();
-  return CANON_MATIERE[cle] || brut;
-}
-
-/* Un événement de data/events.json (schéma `scripts/ingest.mjs`, cf.
-   CHAMPS_PUBLIES) vers le schéma attendu par le reste du composant. */
-function depuisSheet(ev) {
-  return {
-    d: ev.date,
-    s: ev.debut || undefined,
-    e: ev.fin || undefined,
-    t: ev.libelle || ev.matiere || "Séance",
-    subj: normaliserMatiere(ev.matiere),
-    type: TYPE_DEPUIS_SHEET[ev.type] || "cm",
-    place: ev.site || undefined,
-    room: ev.salle || undefined,
-    note: ev.aVerifier || undefined,
-  };
-}
-
 const atelierVieillissement = (session, jour) => {
   if (!session) return [];
   const { dates, label } = SESSIONS[session];
@@ -231,40 +172,6 @@ const compte = (j) => {
 };
 
 /* ------------------------------ export ICS ------------------------------ */
-
-const VTZ = ["BEGIN:VTIMEZONE", "TZID:Europe/Paris", "BEGIN:DAYLIGHT", "TZOFFSETFROM:+0100", "TZOFFSETTO:+0200", "TZNAME:CEST", "DTSTART:19700329T020000", "RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU", "END:DAYLIGHT", "BEGIN:STANDARD", "TZOFFSETFROM:+0200", "TZOFFSETTO:+0100", "TZNAME:CET", "DTSTART:19701025T030000", "RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU", "END:STANDARD", "END:VTIMEZONE"];
-const esc = (s) => String(s || "").replace(/[\\;,]/g, (m) => "\\" + m).replace(/\n/g, "\\n");
-
-const RAPPELS_DEFAUT = { veille: true, heure: true };
-
-const buildICS = (events, titre, rappels = RAPPELS_DEFAUT) => {
-  const L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Planning DFASM2//FR", "CALSCALE:GREGORIAN", "METHOD:PUBLISH", `X-WR-CALNAME:${esc(titre)}`, ...VTZ];
-  events.forEach((ev) => {
-    const c = ev.d.replace(/-/g, "");
-    L.push("BEGIN:VEVENT", `UID:${ev.id}@planning-dfasm2`, `DTSTAMP:${new Date().toISOString().replace(/[-:]/g, "").slice(0, 15)}Z`);
-    if (ev.s) {
-      L.push(`DTSTART;TZID=Europe/Paris:${c}T${ev.s.replace(":", "")}00`);
-      L.push(`DTEND;TZID=Europe/Paris:${c}T${(ev.e || ev.s).replace(":", "")}00`);
-    } else {
-      const n = new Date(toDate(ev.d).getTime() + 86400000);
-      L.push(`DTSTART;VALUE=DATE:${c}`, `DTEND;VALUE=DATE:${n.getFullYear()}${String(n.getMonth() + 1).padStart(2, "0")}${String(n.getDate()).padStart(2, "0")}`);
-    }
-    const titreEv = (ev.subj && ev.subj !== C2 ? `${ev.subj} — ${ev.t}` : ev.t);
-    L.push(`SUMMARY:${esc(ev.aPreciser ? `${titreEv} (date à préciser)` : titreEv)}`);
-    if (lieu(ev)) L.push(`LOCATION:${esc(lieu(ev))}`);
-    if (ev.note) L.push(`DESCRIPTION:${esc(ev.note)}`);
-    if (rappels.veille) {
-      L.push("BEGIN:VALARM", "TRIGGER:-P1D", "ACTION:DISPLAY", `DESCRIPTION:${esc(titreEv)} — demain`, "END:VALARM");
-    }
-    // Un rappel à une heure n'a pas de sens sur un événement sans horaire.
-    if (rappels.heure && ev.s) {
-      L.push("BEGIN:VALARM", "TRIGGER:-PT1H", "ACTION:DISPLAY", `DESCRIPTION:${esc(titreEv)} — dans une heure`, "END:VALARM");
-    }
-    L.push("END:VEVENT");
-  });
-  L.push("END:VCALENDAR");
-  return L.join("\r\n");
-};
 
 const telecharger = (events, titre, fichier, rappels) => {
   const blob = new Blob([buildICS(events, titre, rappels)], { type: "text/calendar;charset=utf-8" });
@@ -412,6 +319,20 @@ select{font-family:inherit;font-size:14px;width:100%;padding:8px 10px;
 .pl-final button:disabled{background:var(--trait);border-color:var(--trait);color:var(--pale);cursor:not-allowed}
 .pl-final span{font-size:13px;color:var(--doux)}
 
+/* ---- abonnement ICS ---- */
+.pl-abo{margin-top:22px;padding:15px 16px;background:var(--craie);
+  border:1px solid var(--trait);border-radius:2px}
+.pl-abo h2{font-family:'Spectral',Georgia,serif;font-size:16px;font-weight:600;margin:0 0 3px}
+.pl-abo>p{font-size:13px;color:var(--doux);margin:0 0 13px;line-height:1.5}
+.pl-abo-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.pl-abo-btn{font-family:inherit;font-size:13.5px;font-weight:600;padding:8px 14px;
+  border:1px solid var(--profond);border-radius:2px;background:var(--profond);
+  color:#fff;text-decoration:none;display:inline-block}
+.pl-abo-btn:hover{background:var(--nuit);border-color:var(--nuit)}
+.pl-abo-url{display:block;margin-top:10px;padding:8px 10px;background:#FAFAFC;
+  border:1px solid var(--trait);border-radius:2px;font-size:12px;color:var(--doux);
+  word-break:break-all}
+
 .pl-pied{margin-top:30px;padding-top:16px;border-top:1px solid var(--trait);
   font-size:12.5px;color:var(--pale);line-height:1.6}
 
@@ -463,6 +384,7 @@ export default function Planning() {
   const [rappels, setRappels] = useState(RAPPELS_DEFAUT);
   const [choisis, setChoisis] = useState(() => new Set(GROUPES.map((g) => g.id)));
   const [now, setNow] = useState(() => new Date());
+  const [lienCopie, setLienCopie] = useState(false);
 
   // Événements synchronisés depuis data/events.json (déroulé + Cycle 2
   // uniquement) ; null tant que rien n'a encore été chargé avec succès,
@@ -501,10 +423,7 @@ export default function Planning() {
   // Toujours affichés (admin, ateliers, ECOS, UE LCA) + portion sourcable
   // du sheet (déroulé/Cycle 2), synchronisée quand elle est disponible,
   // sinon la même portion en dur dans seed.js.
-  const E = useMemo(
-    () => [...EVENEMENTS_PERMANENTS, ...(distants ?? EVENEMENTS_SEED_SOURCABLES)],
-    [distants],
-  );
+  const E = useMemo(() => fusionner(distants), [distants]);
 
   const mesEvents = useMemo(() => {
     return [...E, ...atelierVieillissement(session, jour)]
@@ -581,6 +500,23 @@ export default function Planning() {
 
   const prochain = futurs[0];
   const prochainExam = futurs.find((ev) => ["examen", "edn"].includes(ev.type));
+
+  // Flux public régénéré par scripts/build-ics.mjs à chaque synchronisation
+  // réussie. Contrairement à l'export ci-dessous, il ne dépend d'aucune case
+  // cochée : c'est tout le planning, sauf l'UE LCA (facultative, résolue
+  // nulle part côté serveur).
+  const urlAbonnement = `${window.location.origin}${import.meta.env.BASE_URL}ics/tout.ics`;
+  const urlWebcal = urlAbonnement.replace(/^https?:/, "webcal:");
+  const copierLienAbonnement = async () => {
+    try {
+      await navigator.clipboard.writeText(urlAbonnement);
+      setLienCopie(true);
+      setTimeout(() => setLienCopie(false), 2000);
+    } catch {
+      // Presse-papiers indisponible (permission refusée, contexte non sécurisé) :
+      // le lien reste visible et sélectionnable à la main juste en dessous.
+    }
+  };
 
   return (
     <div className="pl">
@@ -753,6 +689,29 @@ export default function Planning() {
             </button>
             <span>{selection.length ? nomExport : "Rien de sélectionné"}</span>
           </div>
+        </div>
+
+        <div className="pl-abo">
+          <h2>S'abonner plutôt que télécharger</h2>
+          <p>
+            Une fois abonné, votre calendrier vérifie de lui-même les mises à
+            jour (pas instantané : en général toutes les quelques heures selon
+            l'application). Ce flux contient tout le planning, sans tenir
+            compte des cases cochées ci-dessus — sauf l'UE LCA renforcée,
+            optionnelle, qui n'y figure pas.
+          </p>
+          <div className="pl-abo-actions">
+            <a className="pl-abo-btn" href={urlWebcal}>S'abonner (Google, Apple, Outlook)</a>
+            <button className="pl-lien" onClick={copierLienAbonnement}>
+              {lienCopie ? "Lien copié !" : "Copier le lien"}
+            </button>
+          </div>
+          <code className="pl-abo-url">{urlAbonnement}</code>
+          <p className="pl-aide">
+            Sur Google Calendar (web) : « Autres agendas » → + → « À partir de
+            l'URL », et collez le lien copié. Sur iPhone ou Mac, le bouton
+            « S'abonner » ouvre directement l'app Calendrier.
+          </p>
         </div>
 
         <p className="pl-pied">

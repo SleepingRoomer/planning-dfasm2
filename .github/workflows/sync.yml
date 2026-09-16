@@ -10,6 +10,8 @@ on:
     paths:
       - "scripts/**"
       - "config/**"
+      - "src/data/**"
+      - "src/lib/**"
 
 permissions:
   contents: write
@@ -26,6 +28,9 @@ jobs:
 
       - name: Télécharger et normaliser
         run: node scripts/ingest.mjs
+
+      - name: Régénérer le flux .ics
+        run: node scripts/build-ics.mjs
 
       - name: Commiter si le planning a changé
         run: |
