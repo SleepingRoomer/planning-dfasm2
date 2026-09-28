@@ -1,8 +1,8 @@
 {
   "promo": "DFASM2",
   "annee": "2026-2027",
-  "genere": "2026-09-16T06:01:57.628Z",
-  "nb": 243,
+  "genere": "2026-09-28T15:27:30.693Z",
+  "nb": 244,
   "events": [
     {
       "date": "2026-09-07",
@@ -747,6 +747,19 @@
     {
       "date": "2026-10-26",
       "debut": "18:30",
+      "fin": "19:45",
+      "matiere": "Cycle 2",
+      "libelle": "Parasito",
+      "type": "conf",
+      "site": "PSL105",
+      "salle": "AMPHI F",
+      "promo": "DFASM2",
+      "id": "2026-10-26-cycle-2-18-30",
+      "source": "cycle2"
+    },
+    {
+      "date": "2026-10-26",
+      "debut": "19:45",
       "fin": "21:00",
       "matiere": "Cycle 2",
       "libelle": "Bactério",
@@ -754,7 +767,7 @@
       "site": "PSL105",
       "salle": "AMPHI F",
       "promo": "DFASM2",
-      "id": "2026-10-26-cycle-2-18-30",
+      "id": "2026-10-26-cycle-2-19-45",
       "source": "cycle2"
     },
     {
