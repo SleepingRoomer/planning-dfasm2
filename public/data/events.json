@@ -1,7 +1,7 @@
 {
   "promo": "DFASM2",
   "annee": "2026-2027",
-  "genere": "2026-09-29T08:30:16.036Z",
+  "genere": "2026-10-02T15:48:53.021Z",
   "nb": 244,
   "events": [
     {
@@ -35,7 +35,7 @@
       "debut": "15:30",
       "fin": "17:30",
       "matiere": "PEDIATRIE",
-      "libelle": "Pneumologie",
+      "libelle": "Pneumologie ! inversé avec la néphro !",
       "type": "cours",
       "site": "Trousseau",
       "salle": "Sorrel",
@@ -607,7 +607,7 @@
       "debut": "15:30",
       "fin": "17:00",
       "matiere": "PEDIATRIE",
-      "libelle": "Néphrologie",
+      "libelle": "Néphrologie ! inversée avec la pneumo !",
       "type": "cours",
       "site": "Trousseau",
       "salle": "Sorrel",
