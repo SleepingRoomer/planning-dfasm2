@@ -1,7 +1,7 @@
 {
   "promo": "DFASM2",
   "annee": "2026-2027",
-  "genere": "2026-10-02T15:48:53.021Z",
+  "genere": "2026-10-07T20:37:16.203Z",
   "nb": 244,
   "events": [
     {
@@ -531,8 +531,8 @@
       "matiere": "Cycle 2",
       "libelle": "HGE",
       "type": "conf",
-      "site": "PSL105",
-      "salle": "AMPHI F",
+      "site": "ZOOM",
+      "salle": "https://zoom.us/j/92218252010?pwd=USWMdRJ12fmC2mVCoBXXJcE0dHx4C4.1",
       "promo": "DFASM2",
       "id": "2026-10-08-cycle-2-18-30",
       "source": "cycle2"
@@ -570,8 +570,8 @@
       "matiere": "Cycle 2",
       "libelle": "CMF",
       "type": "conf",
-      "site": "/",
-      "salle": "ZOOM",
+      "site": "ZOOM",
+      "salle": "lien sera mis ici lundi",
       "promo": "DFASM2",
       "id": "2026-10-12-cycle-2-18-30",
       "source": "cycle2"
