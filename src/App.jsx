@@ -381,6 +381,7 @@ export default function Planning() {
   const [jour, setJour] = useState("");
   const [lca, setLca] = useState(false);
   const [vue, setVue] = useState("avenir");
+  const [avecPasses, setAvecPasses] = useState(false);
   const [rappels, setRappels] = useState(RAPPELS_DEFAUT);
   const [choisis, setChoisis] = useState(() => new Set(GROUPES.map((g) => g.id)));
   const [now, setNow] = useState(() => new Date());
@@ -456,13 +457,18 @@ export default function Planning() {
 
   // Décocher la LCA peut faire disparaître l'onglet ouvert : on retombe sur la vue générale.
   const vueOk = onglets.some((o) => o.id === vue) ? vue : "avenir";
+  // Inclut les événements passés dans l'onglet courant, quel qu'il soit,
+  // plutôt que de leur dédier un onglet séparé : chaque matière garde ainsi
+  // son historique accessible depuis son propre onglet.
+  const source = avecPasses ? mesEvents : futurs;
 
   const affiches = useMemo(() => {
-    if (vueOk === "examens") return futurs.filter((ev) => ["examen", "edn", "ecos"].includes(ev.type));
+    if (vueOk === "examens") return source.filter((ev) => ["examen", "edn", "ecos"].includes(ev.type));
+    // « 7 prochains jours » garde son sens littéral, peu importe la bascule.
     if (vueOk === "semaine") return futurs.filter((ev) => diff(ev.d, today) <= 7);
     const g = GROUPES.find((x) => x.id === vueOk);
-    return g ? futurs.filter(g.test) : futurs;
-  }, [futurs, vueOk, today]);
+    return g ? source.filter(g.test) : source;
+  }, [source, futurs, vueOk, today]);
 
   /* Sélection de l'export. Un événement coché deux fois n'est exporté qu'une. */
   const selection = useMemo(() => {
@@ -627,9 +633,16 @@ export default function Planning() {
           ))}
         </div>
 
+        {vueOk !== "semaine" && (
+          <label className="pl-case">
+            <input type="checkbox" checked={avecPasses} onChange={(e) => setAvecPasses(e.target.checked)} />
+            Afficher aussi les événements passés de cet onglet
+          </label>
+        )}
+
         {affiches.length > 0 && (
           <div className="pl-bar">
-            <span><span className="pl-bar-n">{affiches.length}</span> {affiches.length > 1 ? "événements" : "événement"} à venir</span>
+            <span><span className="pl-bar-n">{affiches.length}</span> {affiches.length > 1 ? "événements" : "événement"} {avecPasses && vueOk !== "semaine" ? "au total" : "à venir"}</span>
             <button onClick={() => telecharger(
               affiches,
               `DFASM2 — ${onglets.find((o) => o.id === vueOk)?.nom}`,
