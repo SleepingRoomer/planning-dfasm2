@@ -1,7 +1,7 @@
 {
   "promo": "DFASM2",
   "annee": "2026-2027",
-  "genere": "2026-10-09T16:12:19.474Z",
+  "genere": "2026-10-09T20:54:21.565Z",
   "nb": 244,
   "events": [
     {
@@ -568,7 +568,7 @@
       "debut": "18:30",
       "fin": "21:00",
       "matiere": "Cycle 2",
-      "libelle": "CMF",
+      "libelle": "CMF en attente de paramétrage",
       "type": "conf",
       "site": "ZOOM",
       "salle": "lien sera mis ici lundi",
