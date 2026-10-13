@@ -1,8 +1,8 @@
 {
   "promo": "DFASM2",
   "annee": "2026-2027",
-  "genere": "2026-10-12T15:24:18.560Z",
-  "nb": 246,
+  "genere": "2026-10-13T19:16:52.538Z",
+  "nb": 247,
   "events": [
     {
       "date": "2026-09-07",
@@ -1391,6 +1391,19 @@
       "promo": "DFASM2",
       "id": "2026-12-10-cycle-2-18-30",
       "source": "cycle2"
+    },
+    {
+      "date": "2026-12-14",
+      "debut": "14:00",
+      "fin": "17:00",
+      "matiere": "PEDIATRIE",
+      "libelle": "Gastro-entérologie",
+      "type": "cours",
+      "site": "Trousseau",
+      "salle": "Sorrel",
+      "promo": "DFASM2",
+      "id": "2026-12-14-pediatrie-14-00",
+      "source": "deroule"
     },
     {
       "date": "2026-12-14",
