@@ -1,7 +1,7 @@
 {
   "promo": "DFASM2",
   "annee": "2026-2027",
-  "genere": "2026-11-05T20:39:38.519Z",
+  "genere": "2026-11-08T15:11:13.501Z",
   "nb": 246,
   "events": [
     {
@@ -839,7 +839,7 @@
       "debut": "18:30",
       "fin": "21:00",
       "matiere": "Cycle 2",
-      "libelle": "HGE en cours",
+      "libelle": "HGE",
       "type": "conf",
       "site": "PSL105",
       "salle": "AMPHI F",
